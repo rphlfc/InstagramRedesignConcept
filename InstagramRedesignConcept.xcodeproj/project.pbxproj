@@ -13,6 +13,7 @@
 		64CD34402577041900081827 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CD343F2577041900081827 /* Preview Assets.xcassets */; };
 		64CD344A2577097500081827 /* StoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD34492577097500081827 /* StoryItemView.swift */; };
 		64CD344D25770FAE00081827 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64CD344C25770FAE00081827 /* README.md */; };
+		64CD34502578470400081827 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD344F2578470400081827 /* TabBarShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		64CD34412577041900081827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64CD34492577097500081827 /* StoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItemView.swift; sourceTree = "<group>"; };
 		64CD344C25770FAE00081827 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		64CD344F2578470400081827 /* TabBarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				64CD34412577041900081827 /* Info.plist */,
 				64CD343E2577041900081827 /* Preview Content */,
 				64CD34492577097500081827 /* StoryItemView.swift */,
+				64CD344F2578470400081827 /* TabBarShape.swift */,
 			);
 			path = InstagramRedesignConcept;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64CD344A2577097500081827 /* StoryItemView.swift in Sources */,
+				64CD34502578470400081827 /* TabBarShape.swift in Sources */,
 				64CD343B2577041600081827 /* ContentView.swift in Sources */,
 				64CD34392577041600081827 /* InstagramRedesignConceptApp.swift in Sources */,
 			);

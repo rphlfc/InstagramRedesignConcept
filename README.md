@@ -1,13 +1,15 @@
 # Instagram Redesign Concept
-Encontrei esse projeto de redesign do Instagram no Dribbble. O legal desse projeto é que tem as telas para desktop, mobile, modo escuro e diversas interações. A implementação é com SwiftUI.
+Encontrei esse projeto de [redesign do Instagram no Dribbble](https://dribbble.com/overlapstudio/projects/1355527-Instagram-Redesign). O legal desse projeto é que tem as telas para desktop, mobile, modo escuro e diversas interações. A implementação é com SwiftUI.
 
 ## Screenshots
 <p align="center">
     <img src="https://user-images.githubusercontent.com/16376748/100810869-220bf300-3418-11eb-9940-5e189110cc10.png" width="400">&nbsp;
+    <img src="https://user-images.githubusercontent.com/16376748/100945886-ec7f0c80-34e0-11eb-9ad5-25695b743e7c.png" width="400">&nbsp;
 </p>
 
 ## Vídeos
 - [Vídeo no YouTube - Parte 1](https://youtu.be/LNmeUq1-Zi8)
+- [Vídeo no YouTube - Parte 2](https://youtu.be/ZlqoeZq5Omw)
  
 ## Requisitos
 - iOS 14
