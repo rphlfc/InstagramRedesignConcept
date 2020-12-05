@@ -14,6 +14,9 @@
 		64CD344A2577097500081827 /* StoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD34492577097500081827 /* StoryItemView.swift */; };
 		64CD344D25770FAE00081827 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64CD344C25770FAE00081827 /* README.md */; };
 		64CD34502578470400081827 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD344F2578470400081827 /* TabBarShape.swift */; };
+		64CD3458257AF71D00081827 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD3457257AF71C00081827 /* ProfileView.swift */; };
+		64CD345C257B06AA00081827 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD345B257B06AA00081827 /* HomeView.swift */; };
+		64CD345F257B06CF00081827 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD345E257B06CF00081827 /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		64CD34492577097500081827 /* StoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItemView.swift; sourceTree = "<group>"; };
 		64CD344C25770FAE00081827 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		64CD344F2578470400081827 /* TabBarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShape.swift; sourceTree = "<group>"; };
+		64CD3457257AF71C00081827 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		64CD345B257B06AA00081827 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		64CD345E257B06CF00081827 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +65,16 @@
 		64CD34372577041600081827 /* InstagramRedesignConcept */ = {
 			isa = PBXGroup;
 			children = (
+				64CD34492577097500081827 /* StoryItemView.swift */,
+				64CD344F2578470400081827 /* TabBarShape.swift */,
+				64CD3457257AF71C00081827 /* ProfileView.swift */,
 				64CD34382577041600081827 /* InstagramRedesignConceptApp.swift */,
 				64CD343A2577041600081827 /* ContentView.swift */,
+				64CD345E257B06CF00081827 /* TabBarView.swift */,
+				64CD345B257B06AA00081827 /* HomeView.swift */,
 				64CD343C2577041900081827 /* Assets.xcassets */,
 				64CD34412577041900081827 /* Info.plist */,
 				64CD343E2577041900081827 /* Preview Content */,
-				64CD34492577097500081827 /* StoryItemView.swift */,
-				64CD344F2578470400081827 /* TabBarShape.swift */,
 			);
 			path = InstagramRedesignConcept;
 			sourceTree = "<group>";
@@ -150,6 +159,9 @@
 			files = (
 				64CD344A2577097500081827 /* StoryItemView.swift in Sources */,
 				64CD34502578470400081827 /* TabBarShape.swift in Sources */,
+				64CD345F257B06CF00081827 /* TabBarView.swift in Sources */,
+				64CD3458257AF71D00081827 /* ProfileView.swift in Sources */,
+				64CD345C257B06AA00081827 /* HomeView.swift in Sources */,
 				64CD343B2577041600081827 /* ContentView.swift in Sources */,
 				64CD34392577041600081827 /* InstagramRedesignConceptApp.swift in Sources */,
 			);
