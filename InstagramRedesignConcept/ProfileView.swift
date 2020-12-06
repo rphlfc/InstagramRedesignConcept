@@ -23,29 +23,9 @@ struct ProfileView: View {
             
             VStack(spacing: 0) {
                 VStack {
-                    HStack {
-                        Button(action: {}, label: {
-                            Image(systemName: "arrow.left")
-                                .font(.system(size: 19))
-                                .foregroundColor(Color("accent"))
-                        })
-                        
-                        Spacer()
-                        
-                        Text("Kate Lingard")
-                            .font(.system(size: 19, weight: .bold))
-                            .foregroundColor(Color("accent"))
-                        
-                        Spacer()
-                        
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                            Image(systemName: "ellipsis")
-                                .font(.system(size: 19))
-                                .foregroundColor(Color("accent"))
-                        })
-                    }
-                    .padding(.horizontal)
-                    .padding(.top, 44)
+                    CustomNavigationView(showPostView: .constant(true))
+                        .padding(.horizontal)
+                        .padding(.top, 44)
                     
                     StoryItemView(item: StoryItem(image: "profile", new: true))
                         .padding()

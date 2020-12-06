@@ -9,6 +9,8 @@ import SwiftUI
 
 struct HomeView: View {
     @Binding var selectedTab: Int
+    @Binding var showPostView: Bool
+    var animation: Namespace.ID
     
     var body: some View {
         ZStack {
@@ -110,40 +112,19 @@ struct HomeView: View {
                                     
                                     Image("post1")
                                         .resizable()
-                                        .scaledToFit()
+                                        .scaledToFill()
+                                        .frame(height: UIScreen.main.bounds.width - 60)
                                         .cornerRadius(30)
-                                    
-                                    HStack {
-                                        Button(action: {}, label: {
-                                            Image(systemName: "heart.fill")
-                                                .font(.system(size: 26))
-                                                .foregroundColor(Color(#colorLiteral(red: 0.9346720576, green: 0.3965729177, blue: 0.2802894711, alpha: 1)))
-                                        })
+                                        .onTapGesture {
+                                            withAnimation {
+                                                showPostView.toggle()
+                                            }
+                                        }
+                                        .zIndex(1)
+                                        .matchedGeometryEffect(id: "post", in: animation, isSource: false)
                                         
-                                        Text("1, 242")
-                                            .font(.system(size: 23, weight: .semibold))
-                                            .foregroundColor(Color("accent"))
-                                        
-                                        Button(action: {}, label: {
-                                            Image(systemName: "bubble.left")
-                                                .font(.system(size: 26))
-                                                .foregroundColor(Color("accent"))
-                                        })
-                                        .padding(.leading, 20)
-                                        
-                                        Text("24")
-                                            .font(.system(size: 23, weight: .semibold))
-                                            .foregroundColor(Color("accent"))
-                                        
-                                        Spacer()
-                                        
-                                        Button(action: {}, label: {
-                                            Image(systemName: "bookmark")
-                                                .font(.system(size: 26))
-                                                .foregroundColor(Color("accent"))
-                                        })
-                                    }
-                                    .padding(.top)
+                                    PostSocialView()
+                                        .padding(.top)
                                 }
                                 .padding()
                                 .background(Color("foreground"))
@@ -152,7 +133,7 @@ struct HomeView: View {
                         }
                         .padding()
                         
-                        Spacer()
+                        Spacer(minLength: 120)
                     }
                     .background(Color("background"))
                 }
@@ -163,8 +144,8 @@ struct HomeView: View {
     }
 }
 
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView(selectedTab: .constant(0))
-    }
-}
+//struct HomeView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        HomeView(selectedTab: .constant(0), showPostView: .constant(false))
+//    }
+//}
