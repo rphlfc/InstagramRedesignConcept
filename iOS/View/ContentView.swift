@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State var selectedTab = 0
     @State var showPostView = false
-    @Namespace var animation: Namespace.ID
+    @Namespace var animation
     
     var body: some View {
         ZStack {

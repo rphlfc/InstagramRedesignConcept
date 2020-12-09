@@ -26,6 +26,7 @@ struct StoryItemView: View {
                             .foregroundColor(Color(#colorLiteral(red: 0.9389725327, green: 0.9531454444, blue: 0.9702789187, alpha: 1)))
                     )
             })
+            .buttonStyle(PlainButtonStyle())
         }
     }
 }

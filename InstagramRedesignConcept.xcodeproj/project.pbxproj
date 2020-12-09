@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		647CAB4925803967008753EE /* InstagramRedesignConceptMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647CAB3725803964008753EE /* InstagramRedesignConceptMacApp.swift */; };
+		647CAB4A25803967008753EE /* InstagramRedesignConceptMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647CAB3725803964008753EE /* InstagramRedesignConceptMacApp.swift */; };
+		647CAB4B25803967008753EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647CAB3825803964008753EE /* ContentView.swift */; };
+		647CAB4C25803967008753EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647CAB3825803964008753EE /* ContentView.swift */; };
+		647CAB4D25803967008753EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647CAB3925803967008753EE /* Assets.xcassets */; };
+		647CAB4E25803967008753EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647CAB3925803967008753EE /* Assets.xcassets */; };
+		647CAB5925803AD1008753EE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647CAB5825803AAF008753EE /* HomeView.swift */; };
+		647CAB6425803BDC008753EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CD343C2577041900081827 /* Assets.xcassets */; };
+		647CAB6825803BDC008753EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CD343C2577041900081827 /* Assets.xcassets */; };
+		647CAB7025803C37008753EE /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD345E257B06CF00081827 /* TabBarView.swift */; };
+		647CAB7125803C37008753EE /* StoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD34492577097500081827 /* StoryItemView.swift */; };
+		647CAB7225803C37008753EE /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD344F2578470400081827 /* TabBarShape.swift */; };
+		647CAB7325803C37008753EE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD3457257AF71C00081827 /* ProfileView.swift */; };
+		647CAB7425803C37008753EE /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD3464257D79C200081827 /* CustomNavigationView.swift */; };
+		647CAB7525803C37008753EE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD345B257B06AA00081827 /* HomeView.swift */; };
+		647CAB7625803C37008753EE /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD3461257D799800081827 /* PostView.swift */; };
+		647CAB7725803C37008753EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD343A2577041600081827 /* ContentView.swift */; };
+		647CAB7825803C37008753EE /* InstagramRedesignConceptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD34382577041600081827 /* InstagramRedesignConceptApp.swift */; };
+		647CAB7925803C37008753EE /* PostSocialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD3467257D7A8500081827 /* PostSocialView.swift */; };
+		647CAB7E25803D22008753EE /* StoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD34492577097500081827 /* StoryItemView.swift */; };
 		64CD34392577041600081827 /* InstagramRedesignConceptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD34382577041600081827 /* InstagramRedesignConceptApp.swift */; };
 		64CD343B2577041600081827 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD343A2577041600081827 /* ContentView.swift */; };
 		64CD343D2577041900081827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CD343C2577041900081827 /* Assets.xcassets */; };
@@ -23,10 +43,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		647CAB3725803964008753EE /* InstagramRedesignConceptMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramRedesignConceptMacApp.swift; sourceTree = "<group>"; };
+		647CAB3825803964008753EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		647CAB3925803967008753EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Shared/Assets.xcassets; sourceTree = "<group>"; };
+		647CAB3E25803967008753EE /* InstagramRedesignConceptMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramRedesignConceptMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		647CAB4025803967008753EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		647CAB4525803967008753EE /* InstagramRedesignConceptMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramRedesignConceptMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		647CAB4725803967008753EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		647CAB4825803967008753EE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		647CAB5825803AAF008753EE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		64CD34352577041600081827 /* InstagramRedesignConcept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramRedesignConcept.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CD34382577041600081827 /* InstagramRedesignConceptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramRedesignConceptApp.swift; sourceTree = "<group>"; };
 		64CD343A2577041600081827 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		64CD343C2577041900081827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64CD343C2577041900081827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../InstagramRedesignConcept/Assets.xcassets; sourceTree = "<group>"; };
 		64CD343F2577041900081827 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64CD34412577041900081827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64CD34492577097500081827 /* StoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItemView.swift; sourceTree = "<group>"; };
@@ -41,6 +70,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		647CAB3B25803967008753EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647CAB4225803967008753EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64CD34322577041600081827 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,28 +94,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		64CD342C2577041600081827 = {
+		647CAB3625803964008753EE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				64CD344C25770FAE00081827 /* README.md */,
-				64CD34372577041600081827 /* InstagramRedesignConcept */,
-				64CD34362577041600081827 /* Products */,
+				647CAB7D25803D1B008753EE /* View */,
+				64CD343C2577041900081827 /* Assets.xcassets */,
+				647CAB3725803964008753EE /* InstagramRedesignConceptMacApp.swift */,
+				647CAB3825803964008753EE /* ContentView.swift */,
 			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
-		64CD34362577041600081827 /* Products */ = {
+		647CAB3F25803967008753EE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				64CD34352577041600081827 /* InstagramRedesignConcept.app */,
+				647CAB6C25803C04008753EE /* View */,
+				647CAB4025803967008753EE /* Info.plist */,
 			);
-			name = Products;
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		64CD34372577041600081827 /* InstagramRedesignConcept */ = {
+		647CAB4625803967008753EE /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				647CAB5D25803ADB008753EE /* View */,
+				647CAB4725803967008753EE /* Info.plist */,
+				647CAB4825803967008753EE /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		647CAB5D25803ADB008753EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				647CAB5825803AAF008753EE /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		647CAB6C25803C04008753EE /* View */ = {
 			isa = PBXGroup;
 			children = (
 				64CD3461257D799800081827 /* PostView.swift */,
-				64CD34492577097500081827 /* StoryItemView.swift */,
 				64CD344F2578470400081827 /* TabBarShape.swift */,
 				64CD3457257AF71C00081827 /* ProfileView.swift */,
 				64CD3464257D79C200081827 /* CustomNavigationView.swift */,
@@ -81,8 +144,45 @@
 				64CD345E257B06CF00081827 /* TabBarView.swift */,
 				64CD345B257B06AA00081827 /* HomeView.swift */,
 				64CD3467257D7A8500081827 /* PostSocialView.swift */,
-				64CD343C2577041900081827 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		647CAB7D25803D1B008753EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64CD34492577097500081827 /* StoryItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64CD342C2577041600081827 = {
+			isa = PBXGroup;
+			children = (
+				64CD344C25770FAE00081827 /* README.md */,
+				64CD34372577041600081827 /* InstagramRedesignConcept */,
+				647CAB3625803964008753EE /* Shared */,
+				647CAB3F25803967008753EE /* iOS */,
+				647CAB4625803967008753EE /* macOS */,
+				64CD34362577041600081827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64CD34362577041600081827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64CD34352577041600081827 /* InstagramRedesignConcept.app */,
+				647CAB3E25803967008753EE /* InstagramRedesignConceptMac.app */,
+				647CAB4525803967008753EE /* InstagramRedesignConceptMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64CD34372577041600081827 /* InstagramRedesignConcept */ = {
+			isa = PBXGroup;
+			children = (
 				64CD34412577041900081827 /* Info.plist */,
+				647CAB3925803967008753EE /* Assets.xcassets */,
 				64CD343E2577041900081827 /* Preview Content */,
 			);
 			path = InstagramRedesignConcept;
@@ -99,6 +199,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		647CAB3D25803967008753EE /* InstagramRedesignConceptMac (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647CAB5325803967008753EE /* Build configuration list for PBXNativeTarget "InstagramRedesignConceptMac (iOS)" */;
+			buildPhases = (
+				647CAB3A25803967008753EE /* Sources */,
+				647CAB3B25803967008753EE /* Frameworks */,
+				647CAB3C25803967008753EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InstagramRedesignConceptMac (iOS)";
+			productName = "InstagramRedesignConceptMac (iOS)";
+			productReference = 647CAB3E25803967008753EE /* InstagramRedesignConceptMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		647CAB4425803967008753EE /* InstagramRedesignConceptMac (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647CAB5425803967008753EE /* Build configuration list for PBXNativeTarget "InstagramRedesignConceptMac (macOS)" */;
+			buildPhases = (
+				647CAB4125803967008753EE /* Sources */,
+				647CAB4225803967008753EE /* Frameworks */,
+				647CAB4325803967008753EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InstagramRedesignConceptMac (macOS)";
+			productName = "InstagramRedesignConceptMac (macOS)";
+			productReference = 647CAB4525803967008753EE /* InstagramRedesignConceptMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 		64CD34342577041600081827 /* InstagramRedesignConcept */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64CD34442577041900081827 /* Build configuration list for PBXNativeTarget "InstagramRedesignConcept" */;
@@ -125,6 +259,12 @@
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					647CAB3D25803967008753EE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					647CAB4425803967008753EE = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					64CD34342577041600081827 = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -144,11 +284,31 @@
 			projectRoot = "";
 			targets = (
 				64CD34342577041600081827 /* InstagramRedesignConcept */,
+				647CAB3D25803967008753EE /* InstagramRedesignConceptMac (iOS) */,
+				647CAB4425803967008753EE /* InstagramRedesignConceptMac (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		647CAB3C25803967008753EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647CAB6425803BDC008753EE /* Assets.xcassets in Resources */,
+				647CAB4D25803967008753EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647CAB4325803967008753EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647CAB6825803BDC008753EE /* Assets.xcassets in Resources */,
+				647CAB4E25803967008753EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64CD34332577041600081827 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,6 +322,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		647CAB3A25803967008753EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647CAB7825803C37008753EE /* InstagramRedesignConceptApp.swift in Sources */,
+				647CAB4B25803967008753EE /* ContentView.swift in Sources */,
+				647CAB7125803C37008753EE /* StoryItemView.swift in Sources */,
+				647CAB7925803C37008753EE /* PostSocialView.swift in Sources */,
+				647CAB7225803C37008753EE /* TabBarShape.swift in Sources */,
+				647CAB7425803C37008753EE /* CustomNavigationView.swift in Sources */,
+				647CAB7025803C37008753EE /* TabBarView.swift in Sources */,
+				647CAB7525803C37008753EE /* HomeView.swift in Sources */,
+				647CAB7725803C37008753EE /* ContentView.swift in Sources */,
+				647CAB7325803C37008753EE /* ProfileView.swift in Sources */,
+				647CAB7625803C37008753EE /* PostView.swift in Sources */,
+				647CAB4925803967008753EE /* InstagramRedesignConceptMacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647CAB4125803967008753EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647CAB5925803AD1008753EE /* HomeView.swift in Sources */,
+				647CAB7E25803D22008753EE /* StoryItemView.swift in Sources */,
+				647CAB4C25803967008753EE /* ContentView.swift in Sources */,
+				647CAB4A25803967008753EE /* InstagramRedesignConceptMacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64CD34312577041600081827 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,6 +372,93 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		647CAB4F25803967008753EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.rphlfc.InstagramRedesignConceptMac;
+				PRODUCT_NAME = InstagramRedesignConceptMac;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		647CAB5025803967008753EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.rphlfc.InstagramRedesignConceptMac;
+				PRODUCT_NAME = InstagramRedesignConceptMac;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		647CAB5125803967008753EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.rphlfc.InstagramRedesignConceptMac;
+				PRODUCT_NAME = InstagramRedesignConceptMac;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		647CAB5225803967008753EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.rphlfc.InstagramRedesignConceptMac;
+				PRODUCT_NAME = InstagramRedesignConceptMac;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		64CD34422577041900081827 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -343,6 +620,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		647CAB5325803967008753EE /* Build configuration list for PBXNativeTarget "InstagramRedesignConceptMac (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647CAB4F25803967008753EE /* Debug */,
+				647CAB5025803967008753EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647CAB5425803967008753EE /* Build configuration list for PBXNativeTarget "InstagramRedesignConceptMac (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647CAB5125803967008753EE /* Debug */,
+				647CAB5225803967008753EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		64CD34302577041600081827 /* Build configuration list for PBXProject "InstagramRedesignConcept" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

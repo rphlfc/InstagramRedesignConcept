@@ -116,7 +116,7 @@ struct HomeView: View {
                                         .frame(height: UIScreen.main.bounds.width - 60)
                                         .cornerRadius(30)
                                         .onTapGesture {
-                                            withAnimation {
+                                            withAnimation(.spring()) {
                                                 showPostView.toggle()
                                             }
                                         }
