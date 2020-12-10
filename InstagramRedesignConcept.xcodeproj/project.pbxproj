@@ -27,6 +27,9 @@
 		647CAB7825803C37008753EE /* InstagramRedesignConceptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD34382577041600081827 /* InstagramRedesignConceptApp.swift */; };
 		647CAB7925803C37008753EE /* PostSocialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD3467257D7A8500081827 /* PostSocialView.swift */; };
 		647CAB7E25803D22008753EE /* StoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD34492577097500081827 /* StoryItemView.swift */; };
+		64AACFA42582D672009F22E4 /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AACFA32582D672009F22E4 /* StoriesView.swift */; };
+		64AACFA52582D672009F22E4 /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AACFA32582D672009F22E4 /* StoriesView.swift */; };
+		64AACFA62582D672009F22E4 /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AACFA32582D672009F22E4 /* StoriesView.swift */; };
 		64CD34392577041600081827 /* InstagramRedesignConceptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD34382577041600081827 /* InstagramRedesignConceptApp.swift */; };
 		64CD343B2577041600081827 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD343A2577041600081827 /* ContentView.swift */; };
 		64CD343D2577041900081827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CD343C2577041900081827 /* Assets.xcassets */; };
@@ -52,6 +55,7 @@
 		647CAB4725803967008753EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		647CAB4825803967008753EE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		647CAB5825803AAF008753EE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		64AACFA32582D672009F22E4 /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
 		64CD34352577041600081827 /* InstagramRedesignConcept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramRedesignConcept.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CD34382577041600081827 /* InstagramRedesignConceptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramRedesignConceptApp.swift; sourceTree = "<group>"; };
 		64CD343A2577041600081827 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				64CD34492577097500081827 /* StoryItemView.swift */,
+				64AACFA32582D672009F22E4 /* StoriesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -329,6 +334,7 @@
 				647CAB7825803C37008753EE /* InstagramRedesignConceptApp.swift in Sources */,
 				647CAB4B25803967008753EE /* ContentView.swift in Sources */,
 				647CAB7125803C37008753EE /* StoryItemView.swift in Sources */,
+				64AACFA52582D672009F22E4 /* StoriesView.swift in Sources */,
 				647CAB7925803C37008753EE /* PostSocialView.swift in Sources */,
 				647CAB7225803C37008753EE /* TabBarShape.swift in Sources */,
 				647CAB7425803C37008753EE /* CustomNavigationView.swift in Sources */,
@@ -346,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				647CAB5925803AD1008753EE /* HomeView.swift in Sources */,
+				64AACFA62582D672009F22E4 /* StoriesView.swift in Sources */,
 				647CAB7E25803D22008753EE /* StoryItemView.swift in Sources */,
 				647CAB4C25803967008753EE /* ContentView.swift in Sources */,
 				647CAB4A25803967008753EE /* InstagramRedesignConceptMacApp.swift in Sources */,
@@ -359,6 +366,7 @@
 				64CD344A2577097500081827 /* StoryItemView.swift in Sources */,
 				64CD34502578470400081827 /* TabBarShape.swift in Sources */,
 				64CD3462257D799900081827 /* PostView.swift in Sources */,
+				64AACFA42582D672009F22E4 /* StoriesView.swift in Sources */,
 				64CD3465257D79C200081827 /* CustomNavigationView.swift in Sources */,
 				64CD345F257B06CF00081827 /* TabBarView.swift in Sources */,
 				64CD3458257AF71D00081827 /* ProfileView.swift in Sources */,

@@ -8,6 +8,7 @@ Encontrei esse projeto de [redesign do Instagram no Dribbble](https://dribbble.c
     <img src="https://user-images.githubusercontent.com/16376748/101227383-65639d00-3676-11eb-83b5-43fa0fc243da.png" width="400">&nbsp;
     <img src="https://user-images.githubusercontent.com/16376748/101294454-1e9cb100-37f6-11eb-8d30-514b67d8966a.png" width="400">&nbsp;
     <img src="https://user-images.githubusercontent.com/16376748/101556547-e2a25100-3999-11eb-8f7c-4acd830ea6a5.png" width="400">&nbsp;
+    <img src="https://user-images.githubusercontent.com/16376748/101843430-ed3f2080-3b28-11eb-8efe-7dac589ad314.png" width="400">&nbsp;
 </p>
 
 ## Vídeos
@@ -16,6 +17,7 @@ Encontrei esse projeto de [redesign do Instagram no Dribbble](https://dribbble.c
 - [Vídeo no YouTube - Parte 3](https://youtu.be/Y2VCG95qktc)
 - [Vídeo no YouTube - Parte 4](https://youtu.be/cThmVGdr35E)
 - [Vídeo no YouTube - Parte 5 - Desktop](https://youtu.be/Z5uLcAQZj6s)
+- [Vídeo no YouTube - Parte 6 - Desktop](https://youtu.be/4gMlnkQBCDE)
  
 ## Requisitos
 - iOS 14
